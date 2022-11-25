@@ -1,7 +1,7 @@
 package br.projeto.financasdados.model
 
 data class Balance(
-        val income: Double,
-        val expense: Double,
-        val total: Double
+        var income: Double,
+        var expense: Double,
+        var total: Double
 )
