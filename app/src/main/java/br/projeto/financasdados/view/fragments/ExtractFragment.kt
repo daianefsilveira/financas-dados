@@ -1,4 +1,4 @@
-package br.projeto.financasdados.view
+package br.projeto.financasdados.view.fragments
 
 import android.app.Application
 import android.os.Bundle
@@ -9,9 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import br.projeto.financasdados.adapter.ExtractAdapter
 import br.projeto.financasdados.databinding.FragmentExtractBinding
 import br.projeto.financasdados.model.Transaction
+import br.projeto.financasdados.view.adapter.ExtractAdapter
 import br.projeto.financasdados.viewmodel.FinancesViewModel
 import br.projeto.financasdados.viewmodel.FinancesViewModel.FinancesViewModelFactory
 

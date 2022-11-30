@@ -1,4 +1,4 @@
-package br.projeto.financasdados.view
+package br.projeto.financasdados.view.fragments
 
 import android.app.Application
 import android.os.Bundle

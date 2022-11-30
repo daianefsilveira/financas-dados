@@ -2,14 +2,14 @@ package br.projeto.financasdados.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.*
-import br.projeto.financasdados.data.api.FinancesRepositoryImplement
+import br.projeto.financasdados.data.FinancesRepository
 import br.projeto.financasdados.model.Balance
 import br.projeto.financasdados.model.Transaction
 import kotlinx.coroutines.launch
 
 class FinancesViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val repository = FinancesRepositoryImplement(application)
+    private val repository = FinancesRepository(application)
     var transactionList = MutableLiveData<List<Transaction>>()
     var balance = MutableLiveData<Balance>()
 

@@ -1,9 +1,10 @@
-package br.projeto.financasdados.data.database
+package br.projeto.financasdados.data.local
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import br.projeto.financasdados.data.TransactionDAO
 import br.projeto.financasdados.model.Transaction
 
 @Database(entities = [Transaction::class], version = 1)

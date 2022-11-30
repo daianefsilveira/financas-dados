@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="br.projeto.financasdados.view.HomeFragment"
+        android:name="br.projeto.financasdados.view.fragments.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_extractFragment"
@@ -17,10 +17,10 @@
     </fragment>
     <fragment
         android:id="@+id/extractFragment"
-        android:name="br.projeto.financasdados.view.ExtractFragment"
+        android:name="br.projeto.financasdados.view.fragments.ExtractFragment"
         android:label="ExtractFragment" />
     <fragment
         android:id="@+id/transactionFragment"
-        android:name="br.projeto.financasdados.view.TransactionFragment"
+        android:name="br.projeto.financasdados.view.fragments.TransactionFragment"
         android:label="TransactionFragment" />
 </navigation>

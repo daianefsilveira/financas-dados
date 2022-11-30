@@ -1,17 +1,13 @@
-package br.projeto.financasdados.data.api
+package br.projeto.financasdados.data
 
 import android.app.Application
-import br.projeto.financasdados.data.database.TransactionDAO
-import br.projeto.financasdados.data.database.TransactionRoomDataBase
+import br.projeto.financasdados.data.local.TransactionRoomDataBase
 import br.projeto.financasdados.model.Balance
 import br.projeto.financasdados.model.Transaction
-import retrofit2.Response
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import java.math.BigDecimal
 import java.math.RoundingMode
 
-class FinancesRepositoryImplement(application: Application) {
+class FinancesRepository(application: Application) {
 
     private val transactionDao: TransactionDAO
 
